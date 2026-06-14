@@ -85,3 +85,16 @@ Current Status:
 * Project structure created
 * GitHub repository initialized
 * Initial documentation added
+
+
+## Progress Update
+
+Completed Features
+
+- PostgreSQL Configuration
+- Django REST Framework Setup
+- JWT Authentication
+- User Registration API
+- User Login API
+- Access Token Generation
+- Refresh Token Generation
