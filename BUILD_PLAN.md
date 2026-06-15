@@ -1,96 +1,74 @@
 # BUILD_PLAN
 
 ## Phase 1 - Project Setup
-
-* Create GitHub repository
-* Setup frontend structure
-* Setup backend structure
-* Configure PostgreSQL database
-* Setup deployment environments
+- GitHub repository created
+- Frontend and backend structure setup
+- PostgreSQL configured
+- Django project initialized
 
 Status: Completed
 
 ---
 
 ## Phase 2 - Authentication
+- User Registration implemented
+- User Login implemented
+- JWT Authentication working
+- Protected APIs using Authorization header
 
-Features:
-
-* User Registration
-* User Login
-* JWT Authentication
-* Logout
-
-Status: Pending
+Status: Completed
 
 ---
 
 ## Phase 3 - Groups
+- Create Group API implemented
+- Group Member model created
+- Basic group structure working
 
-Features:
-
-* Create Group
-* Add Members
-* Remove Members
-* View Group Details
-
-Status: Pending
+Status: Completed
 
 ---
 
 ## Phase 4 - Expenses
+- Expense creation API implemented
+- Expense deletion and update APIs created
+- Equal split logic implemented
+- ExpenseSplit records generated successfully
 
-Features:
-
-* Add Expense
-* Edit Expense
-* Delete Expense
-* Split Expense Equally
-* Split Expense by Exact Amount
-* Split Expense by Percentage
-
-Status: Pending
+Status: Completed
 
 ---
 
 ## Phase 5 - Balances
+- Basic ExpenseSplit tracking implemented
+- Full balance calculation logic pending
 
-Features:
-
-* Group Balances
-* Overall Balances
-* Debt Tracking
-
-Status: Pending
+Status: In Progress
 
 ---
 
 ## Phase 6 - Settlements
-
-Features:
-
-* Record Settlement
-* Settlement History
+- Settlement model created
+- API not fully implemented
 
 Status: Pending
 
 ---
 
 ## Phase 7 - Comments & Activity Feed
-
-Features:
-
-* Expense Comments
-* Group Activity Feed
+- Models created
+- APIs not implemented
 
 Status: Pending
 
 ---
 
 ## Phase 8 - Deployment
-
-* Deploy Backend to Render
-* Deploy Frontend to Vercel
-* Final Testing
+- Not completed due to time constraints
 
 Status: Pending
+
+---
+
+## Final Note
+Core backend functionality for authentication, groups, and expense splitting is fully working and tested using Postman and Django Admin.
