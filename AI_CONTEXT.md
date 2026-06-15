@@ -98,3 +98,18 @@ Completed Features
 - User Login API
 - Access Token Generation
 - Refresh Token Generation
+
+## Completed Features
+
+### Authentication
+- User Registration
+- User Login
+- JWT Authentication
+
+### Database Models
+- Group
+- GroupMember
+- Expense
+- ExpenseSplit
+- Settlement
+- ExpenseComment
